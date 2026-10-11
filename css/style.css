@@ -777,3 +777,6 @@ h1, h2, h3, p { margin: 0; }
   .photo-item:nth-child(even) { transform: rotate(2deg); }
   .marquee-track span { font-size: 1.1rem; }
 }
+
+.event-card-empty { grid-template-columns: 1fr; grid-column: 1 / -1; }
+.event-card-empty .event-body p:not(.event-city) { margin-bottom: 18px; color: var(--ink-soft); }
